@@ -11,21 +11,23 @@ body {
 .gallery {
   list-style: none;
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 24px;
-
   margin: 0 auto;
   padding: 24px;
   max-width: 1176px;
 }
 .gallery-image:hover {
   cursor: pointer;
-  transform: scale(1.05);
+  transform: scale(1.03);
 }
 .gallery-item {
   max-width: 360px;
 }
 .gallery-image {
+  max-width: 360px;
   transition: transform 0.4s ease-in-out;
 }
 .gallery-link {
